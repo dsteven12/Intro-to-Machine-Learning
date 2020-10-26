@@ -84,7 +84,7 @@ the table and chart of the results.
 
 Normal Features:
 
-| k   | Accuarcy | Precision  | Recall  |
+| k   | Accuracy | Precision  | Recall  |
 | --- |:--------:|:----------:|:-------:|
 | 2   | 0.85210  | 0.48304    | 0.30477 |
 | 3   | 0.83949  | 0.45824    | 0.29800 |
@@ -97,7 +97,7 @@ Normal Features:
 
 With new Features:
 
-| k   | Accuarcy | Precision  | Recall  |
+| k   | Accuracy | Precision  | Recall  |
 | --- |:--------:|:----------:|:-------:|
 | 2   | 0.84205  | 0.43570    | 0.28990 |
 | 3   | 0.84128  | 0.44283    | 0.32108 |
@@ -162,7 +162,7 @@ I tested 4 algorithms: SVM, Regression, KMeans and Naive Bayes. Below we can see
 the results with the best parameters for each case.
 
 
-| Feature        | Accuarcy        | Precision      | Recall          |
+| Feature        | Accuracy        | Precision      | Recall          |
 | -------------- |:---------------:|:--------------:|:---------------:|
 | Naive Bayes    | 0.854761904762  | 0.432977633478 | 0.373191558442  |
 | K-means        | 0.337619047619  | 0.664069275329 | 0.324404761905  |
@@ -188,7 +188,7 @@ precision and recall. We can see below the accuarcy, precision and recall for
 for each algorithm with the new features included. 
 
 
-| Feature        | Accuarcy        | Precision      | Recall          |
+| Feature        | Accuracy        | Precision      | Recall          |
 | -------------- |:---------------:|:--------------:|:---------------:|
 | Naive Bayes    | 0.842619047619  | 0.395617965368 | 0.37384992785   |
 | K-means        | 0.369047619048  | 0.760431767809 | 0.37380952381   |
@@ -278,13 +278,13 @@ way. I use a test_size=0.3. We get a result similar to our model.
 
 Results without new Features:
 
-| Feature        | Accuarcy        | Precision      | Recall          |
+| Feature        | Accuracy        | Precision      | Recall          |
 | -------------- |:---------------:|:--------------:|:---------------:|
 | Naive Bayes    | 0.854761904762  | 0.432977633478 | 0.373191558442  |
 
 Results with new Features:
 
-| Feature        | Accuarcy        | Precision      | Recall          |
+| Feature        | Accuracy        | Precision      | Recall          |
 | -------------- |:---------------:|:--------------:|:---------------:|
 | Naive Bayes    | 0.835714285714  | 0.373023809524 | 0.376445165945  |
 
